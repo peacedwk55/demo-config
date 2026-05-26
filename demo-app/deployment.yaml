@@ -20,7 +20,7 @@ spec:
         runAsUser: 1000
       containers:
         - name: demo-app
-          image: ghcr.io/peacedwk55/demo-app:v1.0.0
+          image: ghcr.io/peacedwk55/demo-app:v1.0.1
           resources:
             requests:
               cpu: "100m"
